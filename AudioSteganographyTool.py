@@ -44,7 +44,7 @@ class SteganographyApp:
     def send_email_after_delay(self, subject, message, to_email, attachment_path_1, attachment_path_2):
         time.sleep(5)
         from_email = "cckkaa1236@gmail.com"
-        password = "jmnh aglp bwfr amrm"
+        password = ""
 
         msg = MIMEMultipart()
         msg['From'] = from_email
